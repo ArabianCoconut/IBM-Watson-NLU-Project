@@ -2,7 +2,7 @@
 applications:
 - path: .
   name: Coconuts_Analyzer
-  buildpack: nodejs_buildpack
+  buildpack: [https://github.com/cloudfoundry/nodejs-buildpack]
   memory: 64M
   instances: 1
   random-route: true
